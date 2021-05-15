@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79228AA526500DD9008ABBF0 /* AllAboutGregCloudKit in Frameworks */ = {isa = PBXBuildFile; productRef = 79228AA426500DD9008ABBF0 /* AllAboutGregCloudKit */; };
+		79228AA826500E58008ABBF0 /* AllAboutGregCloudKit in Frameworks */ = {isa = PBXBuildFile; productRef = 79228AA726500E58008ABBF0 /* AllAboutGregCloudKit */; };
 		79B93792264DBAF0000BF950 /* AllAboutGreg.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79B93766264DBAEF000BF950 /* AllAboutGreg.xcdatamodeld */; };
 		79B93793264DBAF0000BF950 /* AllAboutGreg.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79B93766264DBAEF000BF950 /* AllAboutGreg.xcdatamodeld */; };
 		79B93794264DBAF0000BF950 /* AllAboutGregApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B93768264DBAEF000BF950 /* AllAboutGregApp.swift */; };
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79228AA526500DD9008ABBF0 /* AllAboutGregCloudKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +79,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79228AA826500E58008ABBF0 /* AllAboutGregCloudKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79228AA626500E58008ABBF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		79B93760264DBAEE000BF950 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +100,7 @@
 				79B93772264DBAF0000BF950 /* iOS */,
 				79B93779264DBAF0000BF950 /* macOS */,
 				79B93771264DBAF0000BF950 /* Products */,
+				79228AA626500E58008ABBF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +174,9 @@
 			dependencies = (
 			);
 			name = "aag-app-ios (iOS)";
+			packageProductDependencies = (
+				79228AA426500DD9008ABBF0 /* AllAboutGregCloudKit */,
+			);
 			productName = "AllAboutGreg (iOS)";
 			productReference = 79B93770264DBAF0000BF950 /* All About Greg.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +194,9 @@
 			dependencies = (
 			);
 			name = "aag-app-ios (macOS)";
+			packageProductDependencies = (
+				79228AA726500E58008ABBF0 /* AllAboutGregCloudKit */,
+			);
 			productName = "AllAboutGreg (macOS)";
 			productReference = 79B93778264DBAF0000BF950 /* All About Greg.app */;
 			productType = "com.apple.product-type.application";
@@ -211,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 79B93760264DBAEE000BF950;
+			packageReferences = (
+				79228AA326500DD9008ABBF0 /* XCRemoteSwiftPackageReference "aag-cloud-kit-swift" */,
+			);
 			productRefGroup = 79B93771264DBAF0000BF950 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -525,6 +546,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79228AA326500DD9008ABBF0 /* XCRemoteSwiftPackageReference "aag-cloud-kit-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/allaboutgreg-net/aag-cloud-kit-swift";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79228AA426500DD9008ABBF0 /* AllAboutGregCloudKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79228AA326500DD9008ABBF0 /* XCRemoteSwiftPackageReference "aag-cloud-kit-swift" */;
+			productName = AllAboutGregCloudKit;
+		};
+		79228AA726500E58008ABBF0 /* AllAboutGregCloudKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79228AA326500DD9008ABBF0 /* XCRemoteSwiftPackageReference "aag-cloud-kit-swift" */;
+			productName = AllAboutGregCloudKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		79B93766264DBAEF000BF950 /* AllAboutGreg.xcdatamodeld */ = {

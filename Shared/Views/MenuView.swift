@@ -7,21 +7,28 @@
 //
 
 import SwiftUI
+import AllAboutGregCloudKit
 
 struct MenuView: View {
     var body: some View {
-        List {
-            NavigationLink(destination: HomeView()) {
-                Text("Home")
+        VStack {
+            List {
+                NavigationLink(destination: HomeView()) {
+                    Text("Home")
+                }
+                NavigationLink(destination: DraftListView()) {
+                    Text("Drafts")
+                }
+                NavigationLink(destination: MediaListView()) {
+                    Text("Medias")
+                }
             }
-            NavigationLink(destination: DraftListView()) {
-                Text("Drafts")
-            }
-            NavigationLink(destination: MediaListView()) {
-                Text("Medias")
-            }
+            .listStyle(PlainListStyle())
+            
+            Spacer()
+            
+            Text("Cloud Kit: v\(AllAboutGregCloudKit.version)")
         }
-        .listStyle(PlainListStyle())
         .navigationTitle("Menu")
     }
 }
