@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79228AA526500DD9008ABBF0 /* AllAboutGregCloudKit in Frameworks */ = {isa = PBXBuildFile; productRef = 79228AA426500DD9008ABBF0 /* AllAboutGregCloudKit */; };
+		79228AA826500E58008ABBF0 /* AllAboutGregCloudKit in Frameworks */ = {isa = PBXBuildFile; productRef = 79228AA726500E58008ABBF0 /* AllAboutGregCloudKit */; };
+		79B93792264DBAF0000BF950 /* AllAboutGreg.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79B93766264DBAEF000BF950 /* AllAboutGreg.xcdatamodeld */; };
+		79B93793264DBAF0000BF950 /* AllAboutGreg.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79B93766264DBAEF000BF950 /* AllAboutGreg.xcdatamodeld */; };
+		79B93794264DBAF0000BF950 /* AllAboutGregApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B93768264DBAEF000BF950 /* AllAboutGregApp.swift */; };
+		79B93795264DBAF0000BF950 /* AllAboutGregApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B93768264DBAEF000BF950 /* AllAboutGregApp.swift */; };
+		79B93796264DBAF0000BF950 /* OldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B93769264DBAEF000BF950 /* OldContentView.swift */; };
+		79B93797264DBAF0000BF950 /* OldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B93769264DBAEF000BF950 /* OldContentView.swift */; };
+		79B93798264DBAF0000BF950 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9376A264DBAEF000BF950 /* Persistence.swift */; };
+		79B93799264DBAF0000BF950 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9376A264DBAEF000BF950 /* Persistence.swift */; };
+		79B9379A264DBAF0000BF950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B9376B264DBAF0000BF950 /* Assets.xcassets */; };
+		79B9379B264DBAF0000BF950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B9376B264DBAF0000BF950 /* Assets.xcassets */; };
+		79B937AB264DBBFE000BF950 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B937AA264DBBFE000BF950 /* ContentView.swift */; };
+		79B937AC264DBBFE000BF950 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B937AA264DBBFE000BF950 /* ContentView.swift */; };
+		79B937AE264DBC97000BF950 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B937AD264DBC97000BF950 /* HomeView.swift */; };
+		79B937AF264DBC97000BF950 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B937AD264DBC97000BF950 /* HomeView.swift */; };
+		79B937B1264DBD51000BF950 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B937B0264DBD51000BF950 /* MenuView.swift */; };
+		79B937B2264DBD51000BF950 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B937B0264DBD51000BF950 /* MenuView.swift */; };
+		79B937B4264DBF08000BF950 /* DraftListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B937B3264DBF08000BF950 /* DraftListView.swift */; };
+		79B937B5264DBF08000BF950 /* DraftListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B937B3264DBF08000BF950 /* DraftListView.swift */; };
+		79B937B7264DBF30000BF950 /* MediaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B937B6264DBF30000BF950 /* MediaListView.swift */; };
+		79B937B8264DBF30000BF950 /* MediaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B937B6264DBF30000BF950 /* MediaListView.swift */; };
+		79B937BA264DC0D5000BF950 /* DraftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B937B9264DC0D5000BF950 /* DraftView.swift */; };
+		79B937BB264DC0D5000BF950 /* DraftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B937B9264DC0D5000BF950 /* DraftView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		799BCEE0264EF92D00E08436 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		799BCE9E264EF8F100E08436 /* iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS.entitlements; sourceTree = "<group>"; };
+		79B93767264DBAEF000BF950 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		79B93768264DBAEF000BF950 /* AllAboutGregApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAboutGregApp.swift; sourceTree = "<group>"; };
+		79B93769264DBAEF000BF950 /* OldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldContentView.swift; sourceTree = "<group>"; };
+		79B9376A264DBAEF000BF950 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		79B9376B264DBAF0000BF950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79B93770264DBAF0000BF950 /* All About Greg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "All About Greg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B93773264DBAF0000BF950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B93778264DBAF0000BF950 /* All About Greg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "All About Greg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B9377A264DBAF0000BF950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B9377B264DBAF0000BF950 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		79B937AA264DBBFE000BF950 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79B937AD264DBC97000BF950 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		79B937B0264DBD51000BF950 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		79B937B3264DBF08000BF950 /* DraftListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftListView.swift; sourceTree = "<group>"; };
+		79B937B6264DBF30000BF950 /* MediaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListView.swift; sourceTree = "<group>"; };
+		79B937B9264DC0D5000BF950 /* DraftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79B9376D264DBAF0000BF950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79228AA526500DD9008ABBF0 /* AllAboutGregCloudKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B93775264DBAF0000BF950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79228AA826500E58008ABBF0 /* AllAboutGregCloudKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79228AA626500E58008ABBF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79B93760264DBAEE000BF950 = {
+			isa = PBXGroup;
+			children = (
+				79B93765264DBAEF000BF950 /* Shared */,
+				79B93772264DBAF0000BF950 /* iOS */,
+				79B93779264DBAF0000BF950 /* macOS */,
+				79B93771264DBAF0000BF950 /* Products */,
+				79228AA626500E58008ABBF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79B93765264DBAEF000BF950 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				79B937BC264DC35F000BF950 /* Views */,
+				79B93768264DBAEF000BF950 /* AllAboutGregApp.swift */,
+				79B93769264DBAEF000BF950 /* OldContentView.swift */,
+				79B9376A264DBAEF000BF950 /* Persistence.swift */,
+				79B9376B264DBAF0000BF950 /* Assets.xcassets */,
+				79B93766264DBAEF000BF950 /* AllAboutGreg.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		79B93771264DBAF0000BF950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79B93770264DBAF0000BF950 /* All About Greg.app */,
+				79B93778264DBAF0000BF950 /* All About Greg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79B93772264DBAF0000BF950 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				799BCE9E264EF8F100E08436 /* iOS.entitlements */,
+				79B93773264DBAF0000BF950 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		79B93779264DBAF0000BF950 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				79B9377A264DBAF0000BF950 /* Info.plist */,
+				79B9377B264DBAF0000BF950 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		79B937BC264DC35F000BF950 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79B937AA264DBBFE000BF950 /* ContentView.swift */,
+				79B937B3264DBF08000BF950 /* DraftListView.swift */,
+				79B937B9264DC0D5000BF950 /* DraftView.swift */,
+				79B937AD264DBC97000BF950 /* HomeView.swift */,
+				79B937B0264DBD51000BF950 /* MenuView.swift */,
+				79B937B6264DBF30000BF950 /* MediaListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79B9376F264DBAF0000BF950 /* aag-app-ios (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B9379E264DBAF0000BF950 /* Build configuration list for PBXNativeTarget "aag-app-ios (iOS)" */;
+			buildPhases = (
+				79B9376C264DBAF0000BF950 /* Sources */,
+				79B9376D264DBAF0000BF950 /* Frameworks */,
+				79B9376E264DBAF0000BF950 /* Resources */,
+				799BCEE0264EF92D00E08436 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aag-app-ios (iOS)";
+			packageProductDependencies = (
+				79228AA426500DD9008ABBF0 /* AllAboutGregCloudKit */,
+			);
+			productName = "AllAboutGreg (iOS)";
+			productReference = 79B93770264DBAF0000BF950 /* All About Greg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79B93777264DBAF0000BF950 /* aag-app-ios (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B937A1264DBAF0000BF950 /* Build configuration list for PBXNativeTarget "aag-app-ios (macOS)" */;
+			buildPhases = (
+				79B93774264DBAF0000BF950 /* Sources */,
+				79B93775264DBAF0000BF950 /* Frameworks */,
+				79B93776264DBAF0000BF950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aag-app-ios (macOS)";
+			packageProductDependencies = (
+				79228AA726500E58008ABBF0 /* AllAboutGregCloudKit */,
+			);
+			productName = "AllAboutGreg (macOS)";
+			productReference = 79B93778264DBAF0000BF950 /* All About Greg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79B93761264DBAEE000BF950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AAG;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Greg PFISTER";
+				TargetAttributes = {
+					79B9376F264DBAF0000BF950 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					79B93777264DBAF0000BF950 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 79B93764264DBAEE000BF950 /* Build configuration list for PBXProject "aag-app-ios" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79B93760264DBAEE000BF950;
+			packageReferences = (
+				79228AA326500DD9008ABBF0 /* XCRemoteSwiftPackageReference "aag-cloud-kit-swift" */,
+			);
+			productRefGroup = 79B93771264DBAF0000BF950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79B9376F264DBAF0000BF950 /* aag-app-ios (iOS) */,
+				79B93777264DBAF0000BF950 /* aag-app-ios (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79B9376E264DBAF0000BF950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B9379A264DBAF0000BF950 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B93776264DBAF0000BF950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B9379B264DBAF0000BF950 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79B9376C264DBAF0000BF950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B93794264DBAF0000BF950 /* AllAboutGregApp.swift in Sources */,
+				79B937B7264DBF30000BF950 /* MediaListView.swift in Sources */,
+				79B937AE264DBC97000BF950 /* HomeView.swift in Sources */,
+				79B937AB264DBBFE000BF950 /* ContentView.swift in Sources */,
+				79B93798264DBAF0000BF950 /* Persistence.swift in Sources */,
+				79B937B1264DBD51000BF950 /* MenuView.swift in Sources */,
+				79B937BA264DC0D5000BF950 /* DraftView.swift in Sources */,
+				79B93792264DBAF0000BF950 /* AllAboutGreg.xcdatamodeld in Sources */,
+				79B937B4264DBF08000BF950 /* DraftListView.swift in Sources */,
+				79B93796264DBAF0000BF950 /* OldContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79B93774264DBAF0000BF950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B93795264DBAF0000BF950 /* AllAboutGregApp.swift in Sources */,
+				79B937B8264DBF30000BF950 /* MediaListView.swift in Sources */,
+				79B937AF264DBC97000BF950 /* HomeView.swift in Sources */,
+				79B937AC264DBBFE000BF950 /* ContentView.swift in Sources */,
+				79B93799264DBAF0000BF950 /* Persistence.swift in Sources */,
+				79B937B2264DBD51000BF950 /* MenuView.swift in Sources */,
+				79B937BB264DC0D5000BF950 /* DraftView.swift in Sources */,
+				79B93793264DBAF0000BF950 /* AllAboutGreg.xcdatamodeld in Sources */,
+				79B937B5264DBF08000BF950 /* DraftListView.swift in Sources */,
+				79B93797264DBAF0000BF950 /* OldContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79B9379C264DBAF0000BF950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79B9379D264DBAF0000BF950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		79B9379F264DBAF0000BF950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iOS/iOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE65J7Y35D;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = net.allaboutgrep.app;
+				PRODUCT_NAME = "All About Greg";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79B937A0264DBAF0000BF950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iOS/iOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE65J7Y35D;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = net.allaboutgrep.app;
+				PRODUCT_NAME = "All About Greg";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79B937A2264DBAF0000BF950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DE65J7Y35D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.allaboutgrep.app.AllAboutGreg;
+				PRODUCT_NAME = "All About Greg";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		79B937A3264DBAF0000BF950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DE65J7Y35D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.allaboutgrep.app.AllAboutGreg;
+				PRODUCT_NAME = "All About Greg";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79B93764264DBAEE000BF950 /* Build configuration list for PBXProject "aag-app-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B9379C264DBAF0000BF950 /* Debug */,
+				79B9379D264DBAF0000BF950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79B9379E264DBAF0000BF950 /* Build configuration list for PBXNativeTarget "aag-app-ios (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B9379F264DBAF0000BF950 /* Debug */,
+				79B937A0264DBAF0000BF950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79B937A1264DBAF0000BF950 /* Build configuration list for PBXNativeTarget "aag-app-ios (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B937A2264DBAF0000BF950 /* Debug */,
+				79B937A3264DBAF0000BF950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79228AA326500DD9008ABBF0 /* XCRemoteSwiftPackageReference "aag-cloud-kit-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/allaboutgreg-net/aag-cloud-kit-swift";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79228AA426500DD9008ABBF0 /* AllAboutGregCloudKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79228AA326500DD9008ABBF0 /* XCRemoteSwiftPackageReference "aag-cloud-kit-swift" */;
+			productName = AllAboutGregCloudKit;
+		};
+		79228AA726500E58008ABBF0 /* AllAboutGregCloudKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79228AA326500DD9008ABBF0 /* XCRemoteSwiftPackageReference "aag-cloud-kit-swift" */;
+			productName = AllAboutGregCloudKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		79B93766264DBAEF000BF950 /* AllAboutGreg.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79B93767264DBAEF000BF950 /* Shared.xcdatamodel */,
+			);
+			currentVersion = 79B93767264DBAEF000BF950 /* Shared.xcdatamodel */;
+			path = AllAboutGreg.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79B93761264DBAEE000BF950 /* Project object */;
+}
