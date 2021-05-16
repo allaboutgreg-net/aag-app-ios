@@ -26,7 +26,7 @@ struct MenuView: View {
             
             Spacer()
             
-            Text("Cloud Kit: v\(AllAboutGregCloudKit.version)")
+            Text("Cloud Kit: v\(AAGCK.version)")
         }
         .navigationTitle("Menu")
     }

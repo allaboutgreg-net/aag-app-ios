@@ -552,8 +552,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/allaboutgreg-net/aag-cloud-kit-swift";
 			requirement = {
-				branch = develop;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
