@@ -64,6 +64,11 @@
 		79B937B3264DBF08000BF950 /* DraftListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftListView.swift; sourceTree = "<group>"; };
 		79B937B6264DBF30000BF950 /* MediaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListView.swift; sourceTree = "<group>"; };
 		79B937B9264DC0D5000BF950 /* DraftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftView.swift; sourceTree = "<group>"; };
+		79C1FEF9265103F0004A3513 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		79C1FEFA265103F0004A3513 /* CHANGE_LOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGE_LOG.md; sourceTree = "<group>"; };
+		79C1FEFB265103F0004A3513 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		79C1FEFC265103F0004A3513 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		79C1FEFD265103F0004A3513 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,11 @@
 		79B93760264DBAEE000BF950 = {
 			isa = PBXGroup;
 			children = (
+				79C1FEFA265103F0004A3513 /* CHANGE_LOG.md */,
+				79C1FEFD265103F0004A3513 /* CODE_OF_CONDUCT.md */,
+				79C1FEF9265103F0004A3513 /* CONTRIBUTING.md */,
+				79C1FEFB265103F0004A3513 /* LICENSE */,
+				79C1FEFC265103F0004A3513 /* README.md */,
 				79B93765264DBAEF000BF950 /* Shared */,
 				79B93772264DBAF0000BF950 /* iOS */,
 				79B93779264DBAF0000BF950 /* macOS */,
