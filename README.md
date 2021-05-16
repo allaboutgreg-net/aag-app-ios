@@ -29,7 +29,7 @@ import AllAboutGregCloudKit
 
 ## Change Log
 
-You can look at the [change log](CONTRIBUTING.md).
+You can look at the [change log](CHANGE_LOG.md).
 
 ## Contributing
 
