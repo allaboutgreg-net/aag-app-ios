@@ -1,9 +1,8 @@
 //
-//  DraftListView.swift
 //  AllAboutGreg
 //
 //  Created by Greg PFISTER on 13/05/2021.
-//  Copyright Greg PFISTER 2021. MIT License
+//  MIT License.
 //
 
 import SwiftUI
